@@ -39,7 +39,7 @@
   - Line 230: Selectively choose an appropriate address from intf
 
 ## [lib/intf/rawsock.c](lib/intf/rawsock.c)
-  - Line 39: This is hacky, assuiming lo is loopback
+  - Line 39: This is hacky, assuming lo is loopback
   - Line 131: Move some of this cleanup logic into a generic intf_free() function
   - Line 140: Ensure frames are destroyed, even if they still have references
   - Line 165: Allocate a buffer from the interface for frame storage
